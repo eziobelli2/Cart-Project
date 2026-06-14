@@ -13,9 +13,16 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <div className="flex-shrink-0 flex items-center">
-            <Link href="/" className="font-serif text-2xl font-bold tracking-tight text-primary">
-              RometouringbyCart
-            </Link>
+            <Link href="/" className="flex items-center gap-3">
+  <img
+    src="/images/cartlogo_small.png"
+    alt="RometouringbyCart"
+    className="h-12 w-auto"
+  />
+  <span className="font-serif text-2xl font-bold tracking-tight text-primary">
+    Rome touring by Cart
+  </span>
+</Link>
           </div>
           <div className="hidden md:flex items-center space-x-8">
             <Link href="/" className="text-foreground hover:text-primary transition-colors text-sm uppercase tracking-wider">
